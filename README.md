@@ -1,19 +1,21 @@
 # DevOps-Linux-SSH
-<br>
 
-A shell script to run on a remote server.<br>
-<br>
+A simple shell script to run on a remote server.
 
-## Setting up a secure connection
-For added security, you can use SSH keys to connect to a remote server.<br>
+## Setting Up a Secure Connection
+
+For enhanced security, you can use SSH keys to authenticate to a remote server.
+
 ```bash
-cd .ssh
+cd ~/.ssh
 ```
+
 ```bash
 ssh-keygen -t rsa
 ```
-Then copy the public key content in the server's `.ssh/authorized_keys` file.
+
+Then, copy the contents of the public key (`id_rsa.pub` by default) to the remote server's `.ssh/authorized_keys` file.
 
 ## Acknowledgements
 
-This project was created as part of the DevOps Bootcamp by TechWorld with Nana.
+This project was created as part of the DevOps Bootcamp by **TechWorld with Nana**.
