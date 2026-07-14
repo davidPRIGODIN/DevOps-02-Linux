@@ -1,6 +1,6 @@
-# DevOps-Linux-SSH
+# DevOps-02-Linux
 
-A simple shell script to run on a remote server.
+A simple shell script to run on a remote server via SSH.
 
 ## Setting Up a Secure Connection
 
@@ -18,4 +18,5 @@ Then, copy the contents of the public key (`id_rsa.pub` by default) to the remot
 
 ## Acknowledgements
 
-This project was created as part of the DevOps Bootcamp by **TechWorld with Nana**.
+This demo project was created as part of the DevOps Bootcamp by **TechWorld with Nana**.<br>
+Many thanks to Nana for creating such a comprehensive and practical learning experience.
